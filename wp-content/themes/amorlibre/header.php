@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Wordpress
+ * @package wordpress
  */
 
 ?><!DOCTYPE html><!-- AmorLibre by Toni Lingårdsson -->
@@ -24,7 +24,7 @@
 
 	<header id="masthead" class="site-header" role="banner" >
 		<div class="col-full">
-
+This is the header.
 		</div>
 	</header><!-- #masthead -->
 

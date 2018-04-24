@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package Wordpress
+ * @package wordpress
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-
+This is the footer.
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
 
