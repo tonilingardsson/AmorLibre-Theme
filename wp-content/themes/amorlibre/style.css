@@ -1,0 +1,35 @@
+/*!
+Theme Name:   	AmorLibre
+Theme URI:    	https://tonilingardsson.se/amorlibre/style.css
+Author:         Antonio Lingårdsson Luna
+Author URI:     http://tonilingardsson.se/
+Description:  	I created this theme to fulfill the requirements of my final school project. However, I will use this theme for my own online store. 
+Version:      	2.2.8
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html     
+Text Domain:  	AmorLibre
+Tags:         	amorlibre, e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+
+
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+
+
+*/
+
+
+/*!
+ * normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
+ */
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
