@@ -9,13 +9,13 @@
  *
  * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
  *
- * @package wordPress
+ * @package WordPress
  * 
  */
 
 get_header(); ?>
 <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">Hello World
+    <main id="main" class="site-main" role="main"><h1>Hello World</h1>
     </main>
 </div>
 <?php

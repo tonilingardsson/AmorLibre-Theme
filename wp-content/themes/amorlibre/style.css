@@ -33,3 +33,9 @@ body {
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
+
+p {
+    color: blue;
+    background-color: pink;
+    text-decoration: underline;
+}
