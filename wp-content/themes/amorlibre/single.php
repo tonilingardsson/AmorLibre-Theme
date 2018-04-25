@@ -3,6 +3,7 @@
  * The template for displaying all single posts
  *
  * @package WordPress
+ * @subpackage amorlibre
  */
 
 get_header(); 

@@ -10,12 +10,15 @@
  * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
  *
  * @package WordPress
+ * @subpackage amorlibre
  * 
  */
 
 get_header(); ?>
 <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main"><h1>Hello World</h1>
+    <main id="main" class="site-main" role="main">
+        <h1>AmorLibre.net</h1>
+        <p>Products for pleasure and fun. Adults only!</p>
     </main>
 </div>
 <?php

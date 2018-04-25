@@ -5,6 +5,7 @@
  * Learn more: https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Wordpress
+ * @subpackage amorlibre
  */
 
 get_header(); ?>

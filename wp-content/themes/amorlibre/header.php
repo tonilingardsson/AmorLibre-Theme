@@ -5,6 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="content">
  *
  * @package Wordpress
+ * @subpackage amorlibre
  */
 
 ?><!DOCTYPE html><!-- AmorLibre by Toni Lingårdsson -->
