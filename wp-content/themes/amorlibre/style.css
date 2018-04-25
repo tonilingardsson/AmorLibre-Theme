@@ -28,10 +28,19 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+header {
+background: black;
+}
+
 body {
     margin: 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+    background: pi;
+}
+
+h1 {
+    color: darkred;
 }
 
 p {
