@@ -1,0 +1,27 @@
+/*
+Theme name: amorlibre
+Description: This is a part of a final school project.
+ */
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 20px 40px;
+    max-width: 580px;
+}
+
+/* Nothing happens */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    line-height: 1.4;
+    margin: 0 0 0.75em;
+    padding: 1.5em 0 0;
+}
+
+/* Nothing happens */

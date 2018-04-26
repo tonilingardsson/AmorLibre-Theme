@@ -33,10 +33,10 @@ background: black;
 }
 
 body {
+    background: #fedcd2;
     margin: 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
-    background: pi;
 }
 
 h1 {
@@ -44,7 +44,5 @@ h1 {
 }
 
 p {
-    color: blue;
-    background-color: pink;
-    text-decoration: underline;
+    color: unset;
 }
