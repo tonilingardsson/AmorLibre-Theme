@@ -1,4 +1,4 @@
-/* global twentyseventeenScreenReaderText */
+/* global amorlibreScreenReaderText */
 (function( $ ) {
 
 	// Variables and DOM Caching.
@@ -13,7 +13,7 @@
 		$sidebar = $body.find( '#secondary' ),
 		$entryContent = $body.find( '.entry-content' ),
 		$formatQuote = $body.find( '.format-quote blockquote' ),
-		isFrontPage = $body.hasClass( 'twentyseventeen-front-page' ) || $body.hasClass( 'home blog' ),
+		isFrontPage = $body.hasClass( 'amorlibre-front-page' ) || $body.hasClass( 'home blog' ),
 		navigationFixedClass = 'site-navigation-fixed',
 		navigationHeight,
 		navigationOuterHeight,
@@ -54,7 +54,7 @@
 		navIsNotTooTall       = navigationHeight <= idealNavHeight;
 	}
 
-	// Make navigation 'stick'.
+	// Make navigation 'stick'. This function adjusts the screen to the device used.
 	function adjustScrollClass() {
 
 		// Make sure we're not on a mobile screen.
@@ -104,7 +104,7 @@
 
 	// Set icon for quotes.
 	function setQuotesIcon() {
-		$( twentyseventeenScreenReaderText.quote ).prependTo( $formatQuote );
+		$( amorlibreScreenReaderText.quote ).prependTo( $formatQuote );
 	}
 
 	// Add 'below-entry-meta' class to elements.
@@ -115,7 +115,7 @@
 			$body.hasClass( 'search' ) ||
 			$body.hasClass( 'single-attachment' ) ||
 			$body.hasClass( 'error404' ) ||
-			$body.hasClass( 'twentyseventeen-front-page' )
+			$body.hasClass( 'amorlibre-front-page' )
 		) ) {
 			return;
 		}
@@ -148,7 +148,7 @@
 	}
 
 	/**
-	 * Test if an iOS device.
+	 * Test if an iOS device. Checking if the user's device is an iPhone or iPad.
 	*/
 	function checkiOS() {
 		return /iPad|iPhone|iPod/.test(navigator.userAgent) && ! window.MSStream;
