@@ -7,11 +7,38 @@
  */
 get_header();
 ?>
-<div class="wrapp"><h1>AmorLibre.net</h1>
-    <p>Products for pleasure and fun. Adults only!</p>
-<div id="primary" class="content-area">CONTENT-AREA
+    <div id="primary" class="content-area <?php echo !is_active_sidebar( 'sidebar-1' ) ? 'full-width' : ''; ?>">
+
     <main id="main" class="site-main" role="main">
-    <p>Here will be displayed rows of 4 products. Insert a WHILE here to pick up different template parts and display them on the page.</p>
+        <?php if ( ! is_front_page() ) : ?>
+
+            <?php if ( function_exists( 'bcn_display' ) ) : ?>
+                <div class="breadcrumbs">
+                    <?php bcn_display(); ?> // What is bcn_display
+                </div>
+            <?php endif; ?>
+
+        <?php endif; ?>
+
+        <?php get_template_part( 'template-parts/page/content-title' ); ?>
+
+        <?php while ( have_posts() ) : the_post(); ?>
+
+            <?php get_template_part( 'template-parts/page/content', 'page' ); ?>
+
+            <?php
+            // If comments are open load up the comment template.
+            if ( comments_open() ) :
+                comments_template();
+            endif;
+            ?>
+
+        <?php endwhile; // End of the loop. ?>
+
+        <?php
+        // Prevent weirdness
+        wp_reset_postdata();
+        ?>
 </main>
 </div>
 </div>

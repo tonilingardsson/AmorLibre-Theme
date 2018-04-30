@@ -8,11 +8,17 @@
  *  * @subpackage amorlibre
  * Displays footer site info
  */
-?>
-<div class="site-info">
-    <a href="<?php echo esc_url( __ ( 'https://tonilingardsson.se' ) ); ?>"><?php printf( __ ( 'Designed by %s', 'Toni Lingårdsson'), 'Toni Lingårdsson' ); ?></a>
+?><div class="site-info">
+    <a href="<?php echo esc_url( __ ( 'https://tonilingardsson.se' ) ); ?>"><?php printf( __ ( 'Designed by %s', 'Toni Lingårdsson'), 'Toni Lingårdsson' ); ?></a><br><br>
+    <a href="<?php echo esc_url( __ ( 'https://tonilingardsson.se' ) ); ?>"><?php printf( __ ( 'Follow us at: %s', 'Toni Lingårdsson'), '<br><ul><li>Facebook</li><li>Instagram</li><li>Twitter</li><li>Snapchat</li></ul>'); ?></a>
+    <a href="<?php echo esc_url( get_theme_mod( 'amorlibre-icon-functions-facebook' ) ) . '" target="_blank" title="' . __( 'Find us on Facebook', 'amorlibre' ) . '" class="facebook"><i class="fa fa-facebook"></i>';?>"</a>
+
 </div>
-<ul class="site-info">
+<div class="site-info">
+    echo
+</div>
+<div class="site-info shopstar-social" >
+<ul class="shopstar-social">
 
     <?php
     if( get_theme_mod( 'shopstar-social-email', customizer_library_get_default( 'shopstar-social-email' ) ) != '' ) :
@@ -33,3 +39,4 @@
     ?>
 
 </ul>
+</div>

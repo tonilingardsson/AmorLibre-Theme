@@ -28,23 +28,36 @@ get_header(); ?>
             </header>
         <?php endif; ?>
 
-    <div id="primary" class="content-area">
+    <div id="primary" class="content-area <?php echo !is_active_sidebar( 'sidebar-1' ) ? 'full-width' : ''; ?>">
         <main id="main" class="site-main" role="main">
 
-        <?php if ( have_posts() ) :
+            <?php if ( ! is_front_page() ) : ?>
 
-            /* Start the Loop */
+                <?php if ( function_exists( 'bcn_display' ) ) : ?>
+                    <div class="breadcrumbs">
+                        <?php bcn_display(); ?>
+                    </div>
+                <?php endif; ?>
 
-            while ( have_posts() ) : the_post();
+            <?php endif; ?>
 
-                get_template_part( 'template-parts/post/content' , get_post_format() );
+            <?php get_template_part( 'template-parts/page-title' ); ?>
 
-            endwhile; ?>
+            <?php if ( have_posts() ) : ?>
 
-            <?php
-            // Prevent weirdness
-            wp_reset_postdata();
-            ?>
+                <?php /* Start the Loop */ ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+
+                    <?php
+                    get_template_part( 'template-parts/content' );
+                    ?>
+
+                <?php endwhile; ?>
+
+                <?php
+                // Prevent weirdness
+                wp_reset_postdata();
+                ?>
 
             <?php the_posts_pagination( array(
             'prev_text' => amorlibre_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'amorlibre' ) . '</span>',
@@ -54,14 +67,11 @@ get_header(); ?>
 
         <?php else : ?>
 
-            <?php get_template_part( 'library/template-parts/content', 'none' ); ?>
+            <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
         <?php endif; ?>
 
         </main>
     </div>
     <?php get_sidebar(); ?>
-
-</div>
-
 <?php get_footer(); ?>

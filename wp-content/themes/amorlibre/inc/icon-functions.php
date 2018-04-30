@@ -213,3 +213,37 @@ function amorlibre_social_links_icons() {
      */
     return apply_filters( 'amorlibre_social_links_icons', $social_links_icons );
 }
+
+// Social Settings
+$section = 'shopstar-social';
+
+$sections[] = array(
+    'id' => $section,
+    'title' => __( 'Social Media Links', 'shopstar' ),
+    'priority' => '35'
+);
+
+$options['shopstar-social-email'] = array(
+    'id' => 'shopstar-social-email',
+    'label'   => __( 'Email Address', 'shopstar' ),
+    'section' => $section,
+    'type'    => 'text',
+);
+$options['shopstar-social-skype'] = array(
+    'id' => 'shopstar-social-skype',
+    'label'   => __( 'Skype Name', 'shopstar' ),
+    'section' => $section,
+    'type'    => 'text',
+);
+$options['shopstar-social-tumblr'] = array(
+    'id' => 'shopstar-social-tumblr',
+    'label'   => __( 'Tumblr', 'shopstar' ),
+    'section' => $section,
+    'type'    => 'text',
+);
+$options['shopstar-social-flickr'] = array(
+    'id' => 'shopstar-social-flickr',
+    'label'   => __( 'Flickr', 'shopstar' ),
+    'section' => $section,
+    'type'    => 'text',
+);
