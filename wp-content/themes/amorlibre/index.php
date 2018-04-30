@@ -41,7 +41,7 @@ get_header(); ?>
 
             <?php endif; ?>
 
-            <?php get_template_part( 'template-parts/page-title' ); ?>
+            <?php get_template_part( 'template-parts/page/content-title' ); ?> // This should be correct
 
             <?php if ( have_posts() ) : ?>
 
@@ -49,7 +49,7 @@ get_header(); ?>
                 <?php while ( have_posts() ) : the_post(); ?>
 
                     <?php
-                    get_template_part( 'template-parts/content' );
+                    get_template_part( 'template-parts/posts/content' );
                     ?>
 
                 <?php endwhile; ?>

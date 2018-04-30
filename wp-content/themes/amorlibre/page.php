@@ -20,11 +20,11 @@ get_header();
 
         <?php endif; ?>
 
-        <?php get_template_part( 'template-parts/page/content-title' ); ?>
+        <?php get_template_part( 'template-parts/page/content', 'title' ); echo 'This part above is not working :('; ?>
 
         <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'template-parts/page/content', 'page' ); ?>
+            <?php get_template_part( 'template-parts/pag/content', 'page' ); echo 'This is page.php'; ?>
 
             <?php
             // If comments are open load up the comment template.
@@ -33,11 +33,11 @@ get_header();
             endif;
             ?>
 
-        <?php endwhile; // End of the loop. ?>
+        <?php endwhile; echo 'endwhile is here';// End of the loop. ?>
 
         <?php
         // Prevent weirdness
-        wp_reset_postdata();
+        wp_reset_postdata(); echo 'prevent weirdness here';
         ?>
 </main>
 </div>

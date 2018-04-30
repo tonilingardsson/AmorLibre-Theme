@@ -29,5 +29,5 @@ This is the header.
 		</div>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content" tabindex="-1"><!-- This div needs to be closed in the footer -->
-		<div class="col-full"><!-- This div needs to be closed in the footer -->
+	<div id="content" class="site-content" tabindex="-1"><!-- Here is header.php -->
+		<div class="col-full"><!-- End of header.php displayed in index.php -->

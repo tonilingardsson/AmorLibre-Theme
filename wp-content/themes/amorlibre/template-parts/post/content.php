@@ -8,9 +8,14 @@
  * @subpackage amorlibre
  */
 
+$classes = 'blog-post-side-layout ';
+if ( !has_post_thumbnail() ) {
+    $classes = 'post-no-img ';
+}
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class( $classes ); ?>>
+
 <?php
 if ( is_sticky() && is_home() ) : // Two undefined functions!
     echo amorlibre_get_svg( array( 'icon' => 'thumb-tack' ) );
