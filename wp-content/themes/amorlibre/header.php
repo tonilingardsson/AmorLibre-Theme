@@ -21,10 +21,9 @@
 
 <body <?php body_class(); ?>>
 
-<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); /** Finally a nav menu at the header */
 
+<?php
 
-echo 'This is header.php';
 /**
  *
  * I found out that if I have some code that is wrong stops reading
@@ -35,7 +34,7 @@ else :
     get_template_part( 'template-parts/header/header', 'left-aligned' );
 endif; */
 
-echo 'The code above is bad in header.php 2  ';
+
 
 ?>
 
@@ -43,7 +42,7 @@ echo 'The code above is bad in header.php 2  ';
 
 	<header id="masthead" class="site-header" role="banner" >
 		<div class="col-full">
-This is the header.
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); /** Finally a nav menu at the header */ ?>
 		</div>
 	</header><!-- #masthead -->
 

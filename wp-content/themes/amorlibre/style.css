@@ -22,6 +22,8 @@ Images License: GNU General Public License v2 or later
  * normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
  */
 
+
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -47,12 +49,19 @@ p {
     color: unset;
 }
 
-ul .menu, li .menu-item {
-    diplay: inline-flex;
+.menu-navigation ul ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: inline-flex;
+    text-indent: 20px;
+    background: grey;
 }
 
-ul, menu, dir {
+.main-navigation li {
     display: inline-flex;
-        text-indent: 40px;
-
+    float: left;
+    position: relative;
+    padding: 0 38px 0 0;
+    display: block;
 }

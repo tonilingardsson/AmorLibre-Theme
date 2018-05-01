@@ -20,13 +20,15 @@ get_header(); ?>
 				<h1 class="page-title page-not-found">Oops! That page can&rsquo;t be found.</h1>
 			</header><!-- .page-header -->
 
-			<div class="page-content">
-				<p class="centered">
+			<img class="page-content">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="image-align-center-label" ><img class="size-medium wp-image-107" src="http://localhost:8888/wordpress/wp-content/uploads/2018/05/love_not_found_6_by_strawberrygina-d8tb039-205x300.jpg" alt="404_love_not_found" width="205" height="300" style="margin-left: 40%;"/></a>
+				<p class="centered" style="text-align: center;">
 					Click here to get back to the Home page.
 				</p>
+
 				
-				<p class="centered">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="button"><?php _e( 'Back to Homepage' ); ?></a>
+				<p class="centered" style="text-align: center;">
+                    <button class="button-primary"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="button"><strong><?php _e( 'Back Home' ); ?></a></strong></a></button>
 				</p>
 			</div><!-- .page-content -->
 
