@@ -37,5 +37,31 @@ function storm_social_icons_networks( $networks ) {
     return $extra_icons;
 
 }
+/**
+ * This functions is to show a navigation menu at the header.
+ * So far, the home page still shows the page example content.
+ * I found and enabled the options which appeared in appearance/menu -> Header menu.
+ * All the content disappeared again. I will add the second snippet.
+ */
+function register_my_menu() {
+    register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
+/**
+ * This should deploy two menus, header menu and extra menu.
+ * Nothing, empty of content.
+ * Now, it shows to menus in the appearance/menu editor. Both menus are selected.
+ */
+
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'header-menu' => __( 'Header Menu' ),
+            'extra-menu' => __( 'Extra Menu' )
+        )
+    );
+}
+add_action( 'init', 'register_my_menus' );
 
 ?>

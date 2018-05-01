@@ -21,12 +21,22 @@
 
 <body <?php body_class(); ?>>
 
-<?php
-if ( get_theme_mod( 'amorlibre-header-layout', customizer_library_get_default( 'amorlibre-header-layout' ) ) == 'amorlibre-header-layout-centered' ) :
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); /** Finally a nav menu at the header */
+
+
+echo 'This is header.php';
+/**
+ *
+ * I found out that if I have some code that is wrong stops reading
+ *
+ * if ( get_theme_mod( 'amorlibre-header-layout', customizer_library_get_default( 'amorlibre-header-layout' ) ) == 'amorlibre-header-layout-centered' ) :
     get_template_part( 'template-parts/header/header', 'centered' );
 else :
     get_template_part( 'template-parts/header/header', 'left-aligned' );
-endif;
+endif; */
+
+echo 'The code above is bad in header.php 2  ';
+
 ?>
 
 <div id="page" class="hfeed site">

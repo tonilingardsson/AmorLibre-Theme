@@ -46,3 +46,7 @@ h1 {
 p {
     color: unset;
 }
+
+div .my_extra_menu_class {
+    display: inline-block;
+}

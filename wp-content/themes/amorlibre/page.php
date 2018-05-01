@@ -20,7 +20,13 @@ get_header();
 
         <?php endif; ?>
 
-        <?php get_template_part( 'template-parts/page/content', 'title' ); echo 'This is page.php'; ?>
+
+        <?php get_template_part( 'template-parts/page/content', 'title' );
+        wp_nav_menu( array( 'theme_location' => 'extra-menu', 'container_class' => 'my_extra_menu_class' ) );
+        /**
+         * Thanks to this part, now I have a menu!
+         */
+        echo 'This is page.php'; ?>
         <div class="button-primary">
             <button value="Submit" id="submit" onclick="AnimationEvent">Submit</button>
         </div>
