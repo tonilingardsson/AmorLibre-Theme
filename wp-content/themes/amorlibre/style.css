@@ -47,6 +47,12 @@ p {
     color: unset;
 }
 
-div .my_extra_menu_class {
-    display: inline-block;
+ul .menu, li .menu-item {
+    diplay: inline-flex;
+}
+
+ul, menu, dir {
+    display: inline-flex;
+        text-indent: 40px;
+
 }
