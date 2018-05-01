@@ -8,7 +8,7 @@
  * @subpackage amorlibre
  */
 
-?><!DOCTYPE html><!-- AmorLibre by Toni Lingårdsson -->
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -20,6 +20,14 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php
+if ( get_theme_mod( 'amorlibre-header-layout', customizer_library_get_default( 'amorlibre-header-layout' ) ) == 'amorlibre-header-layout-centered' ) :
+    get_template_part( 'template-parts/header/header', 'centered' );
+else :
+    get_template_part( 'template-parts/header/header', 'left-aligned' );
+endif;
+?>
 
 <div id="page" class="hfeed site">
 

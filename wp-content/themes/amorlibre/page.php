@@ -14,17 +14,20 @@ get_header();
 
             <?php if ( function_exists( 'bcn_display' ) ) : ?>
                 <div class="breadcrumbs">
-                    <?php bcn_display(); ?> // What is bcn_display
+                    <?php bcn_display(); ?> // This is to display breadcrumbs. File/routing
                 </div>
             <?php endif; ?>
 
         <?php endif; ?>
 
-        <?php get_template_part( 'template-parts/page/content', 'title' ); echo 'This part above is not working :('; ?>
+        <?php get_template_part( 'template-parts/page/content', 'title' ); echo 'This is page.php'; ?>
+        <div class="button-primary">
+            <button value="Submit" id="submit" onclick="AnimationEvent">Submit</button>
+        </div>
 
         <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'template-parts/pag/content', 'page' ); echo 'This is page.php'; ?>
+            <?php get_template_part( 'template-parts/page/content', 'page' ); echo 'This is page.php'; ?>
 
             <?php
             // If comments are open load up the comment template.
@@ -33,14 +36,19 @@ get_header();
             endif;
             ?>
 
-        <?php endwhile; echo 'endwhile is here';// End of the loop. ?>
+
+
+        <?php endwhile; // End of the loop. ?>
 
         <?php
         // Prevent weirdness
-        wp_reset_postdata(); echo 'prevent weirdness here';
+        wp_reset_postdata();
         ?>
+        <div class="button-primary">
+            <button value="Submit"></button>
+        </div>
 </main>
-</div>
+
 </div>
 <?php
 get_footer();
