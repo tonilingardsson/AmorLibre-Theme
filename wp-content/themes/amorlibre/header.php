@@ -25,9 +25,6 @@
 
 		<div class="col-full">
 <?php get_template_part( 'template-parts/page/content', 'title' );
-wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu_class' ) );
-/**
- * Thanks to this part, now I have a menu!
- */ ?>
+ ?>
 		</div>
 

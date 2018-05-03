@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a73b4104-9a3f-4753-abee-b89626f1cbf0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.css" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/footer.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/header.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/page.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/style.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/footer/site-info.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/footer/site-info.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/navigation/navigation-top.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/navigation/navigation-top.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-b25f06c0028464a21dc211d1d97e41c3.log" afterPath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-b25f06c0028464a21dc211d1d97e41c3.log" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +30,8 @@
           <file leaf-file-name="content-title.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +80,8 @@
           <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/amorlibre/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state relative-caret-position="300">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -268,7 +262,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/header/header-centered.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/post/content-none.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-front-page-panels.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/post/content-image.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/header/header_image.php" />
@@ -281,6 +274,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/archive-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php" />
       </list>
     </option>
   </component>
@@ -361,12 +355,12 @@
       <workItem from="1524857980723" duration="4566000" />
       <workItem from="1525069949214" duration="19573000" />
       <workItem from="1525180610705" duration="9408000" />
-      <workItem from="1525267516552" duration="19294000" />
+      <workItem from="1525267516552" duration="19882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69959000" />
+    <option name="totallyTimeSpent" value="70547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -817,16 +811,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/amorlibre/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/page/content-title.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>

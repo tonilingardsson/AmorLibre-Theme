@@ -17,6 +17,11 @@ if ( !is_front_page() ) : ?>
         the_title( '<h1 class="entry-title">', '</h1>' );
     endif;
     ?>
+    <?php
+    wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu_class' ) );
+    /**
+     * Thanks to this part, now I have a menu!
+     */    ?>
 </header>
 
 <?php endif; ?>
