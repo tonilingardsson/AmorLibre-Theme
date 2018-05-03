@@ -23,29 +23,11 @@
 <body <?php body_class(); ?>>
 
 
-<?php
-
-/**
- *
- * I found out that if I have some code that is wrong stops reading
- *
- * if ( get_theme_mod( 'amorlibre-header-layout', customizer_library_get_default( 'amorlibre-header-layout' ) ) == 'amorlibre-header-layout-centered' ) :
-    get_template_part( 'template-parts/header/header', 'centered' );
-else :
-    get_template_part( 'template-parts/header/header', 'left-aligned' );
-endif; */
-
-
-
-?>
-
-<div id="page" class="hfeed site">
-
-	<header id="masthead" class="site-header" role="banner" >
 		<div class="col-full">
-<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); /** Finally a nav menu at the header */ ?>
+<?php get_template_part( 'template-parts/page/content', 'title' );
+wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu_class' ) );
+/**
+ * Thanks to this part, now I have a menu!
+ */ ?>
 		</div>
-	</header><!-- #masthead -->
 
-	<div id="content" class="site-content" tabindex="-1"><!-- Here is header.php -->
-		<div class="col-full"><!-- End of header.php displayed in index.php -->

@@ -30,7 +30,7 @@
                     ?>
                 </nav><!-- .social-navigation -->
             <?php endif;
-echo 'Footer.php works!';
+
             get_template_part( 'template-parts/footer/site', 'info' );
             ?>
         </div><!-- .wrap -->

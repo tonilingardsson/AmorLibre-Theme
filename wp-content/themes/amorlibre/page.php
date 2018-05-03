@@ -21,23 +21,14 @@ get_header();
         <?php endif; ?>
 
 
-        <?php get_template_part( 'template-parts/page/content', 'title' );
-        wp_nav_menu( array( 'theme_location' => 'extra-menu', 'container_class' => 'my_extra_menu_class' ) );
-        /**
-         * Thanks to this part, now I have a menu!
-         */
-        echo 'This is page.php'; ?>
+
 
 
         <?php while ( have_posts() ) : the_post(); ?>
-            <div class="button-primary">
-            <button class="button-primary" value="Submit" id="submit" onclick="AnimationEvent">Buy</button>
-        </div>
 
-            <?php get_template_part( 'template-parts/page/content', 'page' ); echo 'This is page.php'; ?>
-            <div class="button-primary">
-                <button value="Submit onclick="addToCart()">Buy</button>
-            </div>
+
+            <?php get_template_part( 'template-parts/page/content', 'page' ); ?> <!-- This runs the WP loop through content-page.php-->
+
             <?php
             // If comments are open load up the comment template.
             if ( comments_open() ) :
