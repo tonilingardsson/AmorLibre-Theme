@@ -9,8 +9,5 @@
  * Displays header media. Print the markup in the Customizer preview.
  */
 ?>
-<div class="customer-header">
-    <div class="customer-header-media">
-        <?php the_custom_header_markup(); ?>
-    </div>
-</div>
+
+<!-- Not necessary -->

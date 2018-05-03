@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-    color: darkred;
+    color: red;
 }
 
 p {
@@ -64,4 +64,25 @@ p {
     position: relative;
     padding: 0 38px 0 0;
     display: block;
+}
+
+header a {
+    color: red;
+    float: right;
+    display: inline-flex;
+    width: 120px;
+    height: available;
+}
+
+div .menu-navigation {
+
+element.style {
+    position: absolute;
+    padding-left: 100px;
+    vertical-align: center;
+    padding-top: 15px;
+}
+
+h1 .entry-title {
+margin-top: -30px;
 }

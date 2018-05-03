@@ -83,4 +83,4 @@
     }
     ?>
 
-</article>
+</article><!-- Content-image.php -->

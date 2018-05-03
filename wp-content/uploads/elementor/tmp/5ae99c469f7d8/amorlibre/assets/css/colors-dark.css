@@ -1,0 +1,11 @@
+/**
+* AmorLibre: Dark Color Scheme. I do not know what it is this for.
+*/
+
+.colors-dark button,
+.colors-dark input[type="button"],
+.colors-dark input[type="submit"],
+.colors-dark .entry-footer .edit-link a.post-edit-link {
+    background-color: #fff;
+}
+/** I will start with this */

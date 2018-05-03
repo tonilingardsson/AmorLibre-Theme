@@ -9,7 +9,7 @@
  *
  * This template should display pages on front page
  */
-
+echo 'This is content-front-page-panels.php';
 global $amorlibre_counter; // Not defined yet. I don't know what I am doing yet :)
 
 ?>
@@ -87,4 +87,4 @@ if ( get_the_ID() === (int) get_option( 'page_for_posts' ) ) :
 
         </div>
     </div>
-</article>
+</article><!-- Content-front-page-panels.php -->
