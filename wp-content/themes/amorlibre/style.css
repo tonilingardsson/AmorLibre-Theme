@@ -91,30 +91,15 @@ a .product_type_simple {
 
 }
 
-.entry-hero .post-thumbnail {
-    display: none;
+ul .center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: available;
 }
-.entry-header-wrapper {
-    background-image: none;
-}
-.entry-hero .entry-title {
-    color: #000000;
-    text-shadow: none;
-}
-.entry-hero .entry-meta a {
-    color: #777;
-    text-shadow: none;
-}
-.entry-hero + div .site-main {
-    padding-top: 30px;
-}
-.entry-hero .entry-header-inner {
-    padding-left: 8%;
-}
-@media screen and (min-width: 960px) {
-    .entry-header-wrapper {
-        padding: 0;
-        position: relative;
-        margin: 60px auto 0 auto;
-    }
+table .shop_table {
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
 }

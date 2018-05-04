@@ -7,7 +7,7 @@
  * @package wordpress
  * @subpackage amorlibre
  */
-if ( !is_front_page() ) : ?>
+ ?>
 
 <header class="entry-header">
     <?php
@@ -24,4 +24,3 @@ if ( !is_front_page() ) : ?>
      */    ?>
 </header>
 
-<?php endif; ?>
