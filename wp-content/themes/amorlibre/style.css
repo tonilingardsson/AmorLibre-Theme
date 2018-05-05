@@ -42,53 +42,30 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #fedcd2;
+    padding-left: 50px;
+}
+
+li {
+    list-style: none;
 }
 
 p {
     color: unset;
 }
 
-.menu-navigation ul ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    display: inline-flex;
-    text-indent: 20px;
-    background: grey;
-}
-
-.main-navigation li {
-    display: inline-flex;
-    float: left;
-    position: relative;
-    padding: 0 38px 0 0;
-    display: block;
+header {
+    padding-top: 0.1px;
+    padding-bottom: 1px;
 }
 
 header a {
-    color: red;
+    color: #fedcd2;
     float: right;
     display: inline-flex;
     width: 120px;
-    height: available;
-}
-
-div .menu-navigation {
-
-element.style {
-    position: absolute;
-    padding-left: 100px;
-    vertical-align: center;
-    padding-top: 15px;
-}
-
-h1 .entry-title {
-    margin-top: -30px;
-}
-
-a .product_type_simple {
-
+    padding-top: 10px;
+    text-decoration: solid;
 }
 
 ul .center {
@@ -97,9 +74,18 @@ ul .center {
     margin-right: auto;
     width: 50%;
     height: available;
+    vertical-align: center;
 }
 table .shop_table {
     display: inline-block;
     margin-left: 25%;
     margin-right: 25%;
 }
+
+li #menu-item-<?php echo $item_id; ?> {
+                                        vertical-align: center;
+                                    }
+
+                                    p  {
+                                      padding-left: 5px;
+                                    }

@@ -359,3 +359,247 @@ Stack trace:
 #6 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
 #7 /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/404.php(11): get
 
+2018-05-04T11:02:03+00:00 CRITICAL Uncaught Error: Call to undefined function post_exists() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-04T11:31:43+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_get_svg() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-04T11:32:10+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_get_svg() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:21
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-04T11:32:32+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_get_svg() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:21
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-04T12:01:20+00:00 CRITICAL Uncaught Error: Call to undefined function the_pst() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-04T13:13:54+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): twentyseventeen_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-05-04T13:15:10+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): twentyseventeen_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-05-04T13:15:25+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): twentyseventeen_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-05-04T13:15:48+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-05-04T13:15:52+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:16:05+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-05-04T13:16:16+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:16:42+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:17:01+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:17:26+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:17:37+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:22:30+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:22:47+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_fonts_url() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/functions.php:149
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(286): amorlibre_setup('')
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-settings.php(434): do_action('after_setup_the...')
+#4 /Applications/MAMP/htdocs/wordpress/wp-config.php(81): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-05-04T13:55:22+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:07:35+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:07:45+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:08:12+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:08:14+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
