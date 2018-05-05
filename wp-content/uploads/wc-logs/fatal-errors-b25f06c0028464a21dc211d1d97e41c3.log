@@ -603,3 +603,147 @@ Stack trace:
 #3 {main}
   thrown
 
+2018-05-05T10:41:23+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:43:30+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:52:03+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:51
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:53:05+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:51
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:53:35+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:51
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T10:54:24+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T11:17:55+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T11:18:52+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:52
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T11:33:13+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T12:07:38+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:54
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T12:10:50+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:54
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T12:29:25+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:54
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T12:33:07+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:66
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T12:36:27+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:67
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T13:31:33+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:67
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T13:33:02+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:67
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+
+2018-05-05T13:37:48+00:00 CRITICAL Uncaught Error: Call to undefined function amorlibre_edit_link() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/amorlibre/single.php:67
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+

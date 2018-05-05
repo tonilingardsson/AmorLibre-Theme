@@ -17,8 +17,13 @@
         <?php
         if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-        <p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here and now</a>.', 'amorlibre' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+        <p><?php printf( wp_kses( __( 'Ready to publish your first post? <a href="%1$s">Get started here and now</a>.', 'amorlibre' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
         // I have to create the file post-new.php
+
+        <?php elseif ( is_search() ) : ?>
+
+            <p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'storefront' ); ?></p>
+            <?php get_search_form(); ?>
 
         <?php else : ?>
 
