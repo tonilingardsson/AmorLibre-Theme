@@ -11,7 +11,7 @@ get_header();
 
 <div class="wrapp">
 
-        <main id="primary" class="site-main" role="main">Single.php
+        <main id="primary" class="site-main" role="main">
             <img id="primary" class="content-area">
             <?php while ( have_posts() ) : the_post();
 
@@ -25,9 +25,10 @@ get_header();
                 $wc_query = new WP_Query($params);
             ?>
             <?php if ($wc_query->have_posts()) :
-    global $products;
+    /**  global $products;
     $product_id = $product->id;
     $product_image = get_the_term_list($product_id, 'product_images');
+     */
 
     /**
      * woocommerce_single_product_summary hook
@@ -40,13 +41,22 @@ get_header();
      * @hooked woocommerce_template_single_meta - 40
      * @hooked woocommerce_template_single_sharing - 50
      */?>
-    <?php while ($wc_query->have_posts()) :
+    <?/**
+           *
+           * This is not necessary
+           *
+           * php while ($wc_query->have_posts()) :
     $wc_query->the_post();
 
     ?>
     <?php the_title(); ?>
-<?php endwhile; ?>
-    <?php wp_reset_postdata(); ?>
+<?php endwhile;
+           *
+          <?php wp_reset_postdata(); ?>
+           *
+           */
+
+    ?>
 <?php else:  ?>
             </div>
         </main><!-- End of main -->
@@ -68,19 +78,7 @@ get_header();
 
             </header -->
 
-            <div class="entry-content">
 
-                <?php
-
-                /* translators: %s: Name of current post */
-                the_content(
-                    sprintf(
-                        __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'amorlibre' ),
-                        get_the_title()
-                    )
-                );
-                ?>
-            </div>
 
         </div>
     </div>

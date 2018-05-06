@@ -11,9 +11,9 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>HelloS>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-    <div class="entry-content">
+    <div class="entry-content"><!-- Do not mess here! -->
         <?php
             the_content();
 
@@ -24,5 +24,5 @@
                 )
             );
         ?>
-    </div>
+    </-div>
 </article>
