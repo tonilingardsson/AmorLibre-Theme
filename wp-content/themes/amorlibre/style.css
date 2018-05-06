@@ -115,6 +115,9 @@ margin-left: 60px;
 span.woocommerce-Price-amount {
     margin-left: 100px;
     padding-right: 25%;
+    width: fit-content;
+    text-size-adjust: auto;
+
 }
 
 div.summary {
@@ -217,4 +220,14 @@ button#place_order.button.alt {
     font-size: xx-large;
     background: lime;
     border-radius: 5px;
+}
+
+body.page-template-default.page.page-id-160.logged-in.admin-bar.woocommerce-account.woocommerce-page.customize-support {
+    display: inline-grid;
+}
+div.woocommerce-MyAccount-content p a {
+    text-decoration: blink;
+    color: lightcoral;
+    font-style: oblique;
+    font-weight: 900;
 }
