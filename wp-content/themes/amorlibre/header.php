@@ -26,6 +26,9 @@
 
 		<div class="col-full">
 <?php get_template_part( 'template-parts/page/content', 'title' );
+/**
+ * This is the one displaying the title in the header.
+ */
  ?>
 		</div>
 

@@ -9,7 +9,7 @@
  */
  ?>
 
-<header class="entry-header">
+<header class="entry-header1">
     <?php
     if ( is_home() ) :
         wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu_class' ) );

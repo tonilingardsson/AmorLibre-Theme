@@ -34,7 +34,7 @@ global $amorlibre_counter; // Not defined yet. I don't know what I am doing yet 
         <div class="wrap">
             <header class="entry-header">
                 <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
-                <?php $amorlibre_edit_link( get_the_ID() ); ?> // This variable does NOT exist yet!
+                <?php $amorlibre_edit_link( get_the_ID() ); ?>
 
             </header>
 

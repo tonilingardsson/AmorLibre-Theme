@@ -4,7 +4,7 @@
  * User: lingardssonluna
  * Date: 2018-04-25
  * Time: 13:49
- *  * @package Wordpress
+ * @package Wordpress
  * @subpackage amorlibre
  * This template part displays page content in page.php
  */

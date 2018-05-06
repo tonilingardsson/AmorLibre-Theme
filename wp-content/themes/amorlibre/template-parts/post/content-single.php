@@ -6,7 +6,7 @@
  * Time: 13:36
  */
 
-<?php
+
 /**
  * Template used to display post content on single pages.
  *

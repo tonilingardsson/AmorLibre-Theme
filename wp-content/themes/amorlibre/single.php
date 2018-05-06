@@ -9,16 +9,17 @@
 get_header(); 
 ?>
 
-<div class="wrapp">Div class="wrapp"
+<div class="wrapp">
     <img id="primary" class="content-area">
-        <main id="primary" class="site-main" role="main">Hello
+        <main id="primary" class="site-main" role="main">Beginning of single.php
 
             <?php while ( have_posts() ) : the_post();
 
-			get_template_part( 'template-parts/posts/content' );
+			get_template_part( 'template-parts/posts/content' ); ?>
+			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-		    endwhile; // End of the loop. ?>
+		  <?php  endwhile; // End of the loop. ?>
 
 
         </main><!-- End of main -->
@@ -31,8 +32,6 @@ $wc_query = new WP_Query($params);
     global $products;
     $product_id = $product->id;
     $product_image = get_the_term_list($product_id, 'product_images');
-    echo '<img class="single-product-image">' . __( "Images: ", "amorlibre_slug" ) . $product_images . '</img>';
-    echo '<img src="http://localhost:8888/wordpress/wp-content/uploads/2018/05/consoladores.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image">';
 
     /**
      * woocommerce_single_product_summary hook
@@ -46,7 +45,10 @@ $wc_query = new WP_Query($params);
      * @hooked woocommerce_template_single_sharing - 50
      */?>
     <?php while ($wc_query->have_posts()) :
-        $wc_query->the_post(); ?>
+        $wc_query->the_post();
+    echo '<img class="single-product-image">' . __( "Images: ", "amorlibre_slug" ) . $product_images . '</img>';
+
+    ?>
         <?php the_title(); ?>
     <?php endwhile; ?>
     <?php wp_reset_postdata(); ?>
@@ -61,15 +63,17 @@ $wc_query = new WP_Query($params);
 <?php endif; ?>
     <div class="panel-content">
         <div class="wrap">
-            <header class="entry-header">
-                <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+            <!-- header class="entry-header">
+                <?php /** the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
-                <?php amorlibre_edit_link( get_the_ID() ); ?>
+                <?php amorlibre_edit_link( get_the_ID() ); */ ?>
 
-            </header>
+            </header -->
 
             <div class="entry-content">
+
                 <?php
+
                 /* translators: %s: Name of current post */
                 the_content(
                     sprintf(

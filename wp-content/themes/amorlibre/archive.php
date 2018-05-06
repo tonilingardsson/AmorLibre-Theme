@@ -21,7 +21,7 @@ get_header(); ?>
                     the_archive_description( '<div class="taxonomy-description">', '</div>' );
                     ?>
                 </header><!-- .page-header -->
-
+archive.php
                 <?php get_template_part( 'loop' );
 
             else :
