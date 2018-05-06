@@ -10,25 +10,21 @@ get_header();
 ?>
 
 <div class="wrapp">
-    <img id="primary" class="content-area">
-        <main id="primary" class="site-main" role="main">Beginning of single.php
 
+        <main id="primary" class="site-main" role="main">Single.php
+            <img id="primary" class="content-area">
             <?php while ( have_posts() ) : the_post();
 
-			get_template_part( 'template-parts/posts/content' ); ?>
+			get_template_part( 'template-parts/page/content', 'page' ); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
 		  <?php  endwhile; // End of the loop. ?>
-
-
-        </main><!-- End of main -->
-
-<?php
-$params = array('posts_per_page' => 100, 'post_type' => 'product');
-$wc_query = new WP_Query($params);
-?>
-<?php if ($wc_query->have_posts()) :
+          <?php
+                $params = array('posts_per_page' => 100, 'post_type' => 'product');
+                $wc_query = new WP_Query($params);
+            ?>
+            <?php if ($wc_query->have_posts()) :
     global $products;
     $product_id = $product->id;
     $product_image = get_the_term_list($product_id, 'product_images');
@@ -45,16 +41,18 @@ $wc_query = new WP_Query($params);
      * @hooked woocommerce_template_single_sharing - 50
      */?>
     <?php while ($wc_query->have_posts()) :
-        $wc_query->the_post();
-    echo '<img class="single-product-image">' . __( "Images: ", "amorlibre_slug" ) . $product_images . '</img>';
+    $wc_query->the_post();
 
     ?>
-        <?php the_title(); ?>
-    <?php endwhile; ?>
+    <?php the_title(); ?>
+<?php endwhile; ?>
     <?php wp_reset_postdata(); ?>
 <?php else:  ?>
-    </div>
-</div>
+            </div>
+        </main><!-- End of main -->
+
+
+
 
 
     <p>

@@ -110,4 +110,14 @@ function amorlibre_do_shortcode( $tag, array $atts = array(), $content = null ) 
     return call_user_func( $shortcode_tags[ $tag ], $atts, $content, $tag );
 }
 
+/**
+ * Allow shortcodes in product excerpts
+ */
+if (!function_exists('woocommerce_template_single_excerpt')) {
+    function woocommerce_template_single_excerpt( $post ) {
+        global $post;
+        if ($post->post_excerpt) echo '<div itemprop="description">' . do_shortcode(wpautop(wptexturize($post->post_excerpt))) . '</div>';
+    }
+}
+
 ?>
