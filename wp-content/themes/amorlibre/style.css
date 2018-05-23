@@ -113,10 +113,8 @@ margin-left: 60px;
 }
 
 span.woocommerce-Price-amount {
-    margin-left: 100px;
-    padding-right: 10%;
-    width: fit-content;
-    text-size-adjust: auto;
+    display: inline-table;
+    padding: 20px;
 
 }
 
@@ -136,7 +134,8 @@ form.cart {
 }
 
 button.single_add_to_cart_button button.alt {
-    background: lime;
+    background: black;
+    color: #fedcd2;
     font-size: medium;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -177,6 +176,7 @@ form.woocommerce-cart-form img {
 a.remove {
 margin-right: -240px;
 }
+
 td.actions {
     display: inline-grid;
     width: max-content;
@@ -194,9 +194,10 @@ div.cart-collaterals {
 div.wc-proceed-to-checkout {
     font-size: xx-large;
     font-variant: all-petite-caps;
-    background: lime;
+    background: black;
     width: fit-content;
     border-radius: 4px;
+    color: #fedcd2;
 }
 div.coupon {
     display: none;
@@ -214,11 +215,17 @@ div.woocommerce-billing-fields__field-wrapper {
 
 div.woocommerce-additional-fields__field-wrapper {padding-right: 10px;}
 
+.woocommerce.columns-3 ul.products li.product {
+    display: grid;
+}
+
 button#place_order.button.alt {
     margin-left: 42%;
     margin-right: 43%;
     font-size: xx-large;
-    background: lime;
+    background: black;
+    color: #fedcd2;
+    border: darkslategrey;
     border-radius: 5px;
 }
 
@@ -231,3 +238,40 @@ div.woocommerce-MyAccount-content p a {
     font-style: oblique;
     font-weight: 900;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
+}
+.image-wrap {
+    max-height: 450px;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.image-wrap img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1160px) {
+    .image-wrap { max-width: 1000px }
+}
+-moz-hyphens:auto;
+-ms-hyphens:auto;
+-webkit-hyphens:auto;
+hyphens:auto;
+word-wrap:break-word;
