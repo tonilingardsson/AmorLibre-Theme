@@ -97,6 +97,7 @@ p  {
 div .woocommerce a {
     color: black;
     text-align: center;
+    display: inline-grid;
 }
 
 span .woocommerce-Price-amount amount {
@@ -150,8 +151,8 @@ select.orderby {
 
 div.woocommerce-product-gallery ol {
     display: inline-flex;
-    float: right;
-    margin-right: -25%;
+    /**float: right;
+    margin-right: -25%;*/
 }
 
 div.woocommerce-tabs {
@@ -238,6 +239,13 @@ div.woocommerce-MyAccount-content p a {
     font-style: oblique;
     font-weight: 900;
 }
+
+.woocommerce img, .woocommerce-page img {
+    height: auto;
+    /* max-width: fit-content;
+    max-height: fit-content;*/
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
