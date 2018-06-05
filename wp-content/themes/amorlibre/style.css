@@ -78,7 +78,7 @@ table .shop_table {
     margin-right: 25%;
 }
 
-div#quantity, input {
+div #quantity, input {
     width: 35px;
     font-size: large;
     margin-bottom: 5px;
@@ -100,7 +100,7 @@ div .woocommerce a {
     display: inline-grid;
 }
 
-span .woocommerce-Price-amount amount {
+span .woocommerce-Price-amount .amount {
     text-decoration: solid;
 }
 
@@ -116,13 +116,14 @@ margin-left: 60px;
 span.woocommerce-Price-amount {
     display: inline-table;
     padding: 20px;
+    font-size: xx-large;
+    color: lightcoral;
 
 }
 
 div.summary {
     display: inline-block;
-    margin-top: 100px;
-    text-align: center;
+    /*margin-top: 100px;*/
 }
 
 p.price {
@@ -155,10 +156,10 @@ div.woocommerce-product-gallery ol {
     margin-right: -25%;*/
 }
 
-div.woocommerce-tabs {
+/*div.woocommerce-tabs {
     margin-left: 150px;
     margin-right: 50px;
-}
+}*/
 
 div.woocommerce-product-gallery {
     text-align: center;
@@ -221,8 +222,8 @@ div.woocommerce-additional-fields__field-wrapper {padding-right: 10px;}
 }
 
 button#place_order.button.alt {
-    margin-left: 42%;
-    margin-right: 43%;
+   /* margin-left: 42%;
+    margin-right: 43%;*/
     font-size: xx-large;
     background: black;
     color: #fedcd2;
@@ -277,9 +278,41 @@ and (max-width : 320px) {
 
 @media only screen and (min-width: 1160px) {
     .image-wrap { max-width: 1000px }
-}
--moz-hyphens:auto;
+
+/*-moz-hyphens:auto;
 -ms-hyphens:auto;
 -webkit-hyphens:auto;
 hyphens:auto;
-word-wrap:break-word;
+word-wrap:break-word;*/
+}
+
+
+
+.woocommerce div.product form.cart {
+    margin-bottom: 2em;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 50px;
+}
+
+div .product_meta{
+    display: grid;
+    margin-left: 49px;
+}
+
+img.single-product-image {
+    margin-left: 49px;
+}
+
+span.woocommerce-Price-amount {
+    display: inline-table;
+    padding: 20px;
+    font-size: xx-large;
+    color: lightcoral;
+}
+li #tab-title-description {
+    display: none;
+}
