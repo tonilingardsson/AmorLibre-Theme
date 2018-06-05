@@ -318,3 +318,11 @@ li #tab-title-description {
 table.shop_table.woocommerce-checkout-review-order-table {
     display: inline-grid;
 }
+
+section.related a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+    display: grid;
+}
+
+/*section.related a.woocommerce-LoopProduct-link.woocommerce-loop-product__link li.product button {
+    margin-left: 20%;
+}*/
