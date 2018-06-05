@@ -194,10 +194,8 @@ div.cart-collaterals {
 }
 
 div.wc-proceed-to-checkout {
-    font-size: xx-large;
+    font-size: x-large;
     font-variant: all-petite-caps;
-    background: black;
-    width: fit-content;
     border-radius: 4px;
     color: #fedcd2;
 }
@@ -315,4 +313,7 @@ span.woocommerce-Price-amount {
 }
 li #tab-title-description {
     display: none;
+}
+table.shop_table.woocommerce-checkout-review-order-table {
+    display: inline-grid;
 }
