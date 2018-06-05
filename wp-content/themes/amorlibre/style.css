@@ -227,6 +227,7 @@ button#place_order.button.alt {
     color: #fedcd2;
     border: darkslategrey;
     border-radius: 5px;
+    margin-right: 44%;
 }
 
 body.page-template-default.page.page-id-160.logged-in.admin-bar.woocommerce-account.woocommerce-page.customize-support {
