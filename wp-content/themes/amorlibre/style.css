@@ -354,8 +354,12 @@ section.related.products a {
     display: block;
 }
 
-div.woocommerce-tabs.wc-tabs-wrapper {
-    display: inline;
+p#title.title {
+    color: #fedcd2;
+}
+
+div.header_menu_class {
+    display: flow-root;
 }
 
 
