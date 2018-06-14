@@ -21,7 +21,8 @@ global $amorlibre_counter; // Not defined yet. I don't know what I am doing yet 
     $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'amorlibre-featured-image' );
 
     // Calculate aspect ration: h / w * 100%.
-    $ration = $thumbnail[2] / $thumbnail[1] * 100%; // This could be calculated easier since 100% = 1. But I guess it is easier for more people like this.
+    //$ration = $thumbnail[2] / $thumbnail[1] * 100%; 
+    // This could be calculated easier since 100% = 1. But I guess it is easier for more people like this.
     ?>
 
     <div class="panel-image" style="...">

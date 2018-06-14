@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73b4104-9a3f-4753-abee-b89626f1cbf0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/footer/site-info.php" afterPath="$PROJECT_DIR$/wp-content/themes/amorlibre/template-parts/footer/site-info.php" />
-    </list>
+    <list default="true" id="a73b4104-9a3f-4753-abee-b89626f1cbf0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -401,12 +399,12 @@
       <workItem from="1525267516552" duration="20069000" />
       <workItem from="1525417661379" duration="12242000" />
       <workItem from="1526732537425" duration="3165000" />
-      <workItem from="1527757203301" duration="10676000" />
+      <workItem from="1527757203301" duration="10819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96817000" />
+    <option name="totallyTimeSpent" value="96960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="557" extended-state="0" />
